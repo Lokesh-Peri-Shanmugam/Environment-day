@@ -220,7 +220,10 @@ a:hover{
 
 
 	.img{
-		display:none;
+		display:flex;
+		position: relative;
+		justify-content: center;
+		padding-top:0;
 	}
 
 	.wave{
