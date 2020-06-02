@@ -1,0 +1,26 @@
+<html>
+    <title>Linto webAR</title>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+
+    <body style="background-color: #cdb189;">
+	<div class="container">
+		<div class="img">
+			<img src="post.jpg">
+		</div>
+		<div class="login-content">
+			<model-viewer src="./bird.glb"
+                  ios-src="./bird.usdz"
+                  alt="A 3D model of an astronaut"
+                  shadow-intensity="1"
+                  camera-controls
+                  interaction-prompt="auto"
+                  auto-rotate ar magic-leap>
+    </model-viewer>
+        </div>
+    </div>
+</body>
+</html>
