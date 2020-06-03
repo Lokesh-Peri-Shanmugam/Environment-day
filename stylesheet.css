@@ -81,7 +81,7 @@ form{
 }
 
 .i{
-	color: #000000;
+	color: #d9d9d9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -177,7 +177,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image:#f1efe0;
+	background-image: #f1efe0;
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #3c4e18;
@@ -237,7 +237,7 @@ a:hover{
 
 	}
 	body{
-		background-color: #cdb189;
+		background-image:#cdb189;
 	}
 
 
